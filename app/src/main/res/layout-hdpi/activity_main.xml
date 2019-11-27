@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".play_secion.MainActivity"
+    android:background="#000"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--top tool bar-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rellayout1"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/exan_regular"
+                android:id="@+id/updateinfo"
+                android:textColor="@color/black"
+                />
+
+        </RelativeLayout>
+        <ScrollView
+            android:id="@+id/rellayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rellayout1"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <android.support.v7.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/card_play"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="#fcd116"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:onClick="gotoErangleDetails"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/llayoutcard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/csText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="#fd6a02"
+                                android:translationZ="1dp"
+                                android:textStyle="bold"
+                                android:textSize="17dp"
+                                android:layout_centerInParent="true"
+                                />
+                            <ImageView
+                                android:id="@+id/mapImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="388dp"
+                                android:src="@drawable/map" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            >
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                >
+                                <TextView
+                                    android:id="@+id/play_date_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="Erangle"
+                                    android:textSize="15sp"
+                                    />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="#fcd116"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:onClick="gotoMiramarDetails"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="#fd6a02"
+                                android:translationZ="1dp"
+                                android:textStyle="bold"
+                                android:textSize="17dp"
+                                android:layout_centerInParent="true"
+                                />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="388dp"
+                                android:src="@drawable/map2" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            >
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                >
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="MIRAMAR"
+                                    android:textSize="15sp"
+                                    />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:onClick="gotoSanhokDetails"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="#fcd116"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="15dp"
+                    >
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="#fd6a02"
+                                android:translationZ="1dp"
+                                android:textStyle="bold"
+                                android:textSize="17dp"
+                                android:layout_centerInParent="true"
+                                />
+                            <ImageView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="388dp"
+                                android:src="@drawable/map3" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            >
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center"
+                                >
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:text="SANHOK"
+                                    android:textSize="15sp"
+                                    />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <Space
+                    android:layout_below="@+id/play_container"
+                    android:id="@+id/space"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+        </ScrollView>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/google_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6959993616164778/1464492585"
+            android:layout_below="@id/rellayout2"/>
+
+        <!--bottom nvigation-->
+        <include layout="@layout/layout_bottom_navigation_view"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

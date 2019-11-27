@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result_section.result_Activity"
+    android:background="#000"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--top tool bar-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rellayout1">
+
+        </RelativeLayout>
+
+        <!--middle section-->
+
+        <RelativeLayout
+            android:id="@+id/rellayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rellayout1"
+            android:layout_marginTop="20dp"
+            >
+
+                <android.support.v7.widget.RecyclerView
+                android:id="@+id/result_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <!--bottom nvigation-->
+        <include layout="@layout/layout_bottom_navigation_view"/>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/google_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6959993616164778/1464492585"
+            android:layout_below="@id/rellayout2"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

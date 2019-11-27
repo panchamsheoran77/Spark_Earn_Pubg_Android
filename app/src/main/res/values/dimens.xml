@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--login concept dimens starts here -->
+
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <item name="wrap_content" format="integer" type="dimen">-2</item>
+    <dimen name="unfolded_size">40sp</dimen>
+    <dimen name="option_size">56dp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+    <dimen name="input_width">220dp</dimen>
+    <dimen name="guideline_margin">56dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--ends here-->
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SPARK EARN</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+
+    <!--login concept string starts here-->
+    <string name="sign_up_label">Sign Up</string>
+    <string name="log_in_label">Log In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="title_activity_wallet">wallet</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!--ends here-->
+
+</resources>

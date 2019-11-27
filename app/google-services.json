@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "751198226577",
+    "firebase_url": "https://winnerszone-24826.firebaseio.com",
+    "project_id": "winnerszone-24826",
+    "storage_bucket": "winnerszone-24826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751198226577:android:088f14f1309f41c0fa9730",
+        "android_client_info": {
+          "package_name": "com.makcreation.winnerszone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751198226577-a4js7ff15s1318288e4t8qft2016rmho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByMz1eUUOYd2PqyASIotkQBhkHNXLEYFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751198226577-a4js7ff15s1318288e4t8qft2016rmho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
